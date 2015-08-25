@@ -1,0 +1,7 @@
+serverspec_test_1:
+  hook_type: serverspec
+  pattern: ./spec/integration/*_1_spec.rb
+serverspec_test_2:
+  hook_type: serverspec
+  pattern: ./spec/integration/*_2_spec.rb
+  host_properties: ./spec/integration/properties.yml
