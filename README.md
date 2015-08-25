@@ -1,4 +1,5 @@
-# Rundock::Plugin::Hook::Serverspec [![Gem Version](https://badge.fury.io/rb/rundock-plugin-hook-serverspec.svg)](http://badge.fury.io/rb/rundock-plugin-hook-serverspec) [![Circle CI](https://circleci.com/gh/hiracy/rundock-plugin-hook-serverspec/tree/master.png?style=shield)](https://circleci.com/gh/hiracy/rundock-plugin-hook-serverspec/tree/master)
+# Rundock::Plugin::Hook::Serverspec
+[![Gem Version](https://badge.fury.io/rb/rundock-plugin-hook-serverspec.svg)](http://badge.fury.io/rb/rundock-plugin-hook-serverspec) [![Circle CI](https://circleci.com/gh/hiracy/rundock-plugin-hook-serverspec/tree/master.png?style=shield)](https://circleci.com/gh/hiracy/rundock-plugin-hook-serverspec/tree/master)
 
 [Rundock](https://github.com/hiracy/rundock) plugin for [serverspec](http://serverspec.org) hook.
 
