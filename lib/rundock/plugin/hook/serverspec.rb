@@ -47,7 +47,8 @@ module Rundock
     #   anykey2: value2
      
     class Serverspec < Base
-      def hook(log_buffer, node_info)
+      def hook(node_attributes, log_buffer)
+        node_info = node_attributes[0][:nodeinfo]
         setenv(node_info, @contents)
         load "#{::File.expand_path(::File.dirname(__FILE__))}/../../../../Rakefile"
         Logger.info("serverspec started: #{node_info[:nodename]}(#{node_info[:host]})")
