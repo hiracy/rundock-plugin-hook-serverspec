@@ -1,10 +1,10 @@
-- node: localhost
+- target: localhost
   command:
     - "echo 'Hello Rundock plugin hook serverspec from Scenario.' | tee /var/tmp/hello_rundock_plugin_hook_serverspec_1_from_scenario"
     - hostname
   hook:
     - serverspec_test_1
-- node: anyhost-01
+- target: anyhost-01
   command:
     - "echo 'Hello Rundock plugin hook serverspec from Scenario.' | tee /var/tmp/hello_rundock_plugin_hook_serverspec_2_from_scenario"
   hook:
