@@ -30,7 +30,7 @@ serverspec_test_2:
 And edit your operation scenario to "[scenario.yml](https://github.com/hiracy/rundock/blob/master/scenario_sample.yml)" like this sample.
 
 ```
-- node: anyhost-01
+- target: anyhost-01
   deploy:
     - src: /path/to/great/middleware/conf_src.rb             # deploy source file from localhost
       dst: /path/to/great/middleware/conf_dst.rb             # deploy destination file to remotehost
